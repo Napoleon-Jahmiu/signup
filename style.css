@@ -1,0 +1,92 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body, html {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.7;
+        background: #0c158f;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* utility classes */
+    .text-primary {
+    background: #285f28;
+    }
+/* required field: important to fill */
+.required:before {
+    content: "*";
+    color: red;
+}
+/* the container encompasses the sign up page including the footer */
+    .container {
+        margin: 30px auto;
+        width: 400px;
+        padding: 20px;
+    }
+
+    /* this page wraps only the signup space which has a white background */
+.form-wrap {
+    background: #fff;
+    color: 333;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* for the h1 and paragraphs */
+.form-wrap h1 {
+    text-align: center;
+    color: #285f28;
+}
+
+.form-wrap p {
+    text-align: center;
+}
+
+/* label for the sign up page */
+.form-wrap label {
+    display: block;
+    padding: 5px 0;
+}
+
+/* input method for the sign up */
+.form-wrap input {
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #285f28 solid;
+}
+
+button {
+    background: #285f28;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.sign-up a {
+    color: #285f28;
+}
+
+.login {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.login a {
+    color: #fff;
+}
